@@ -1,4 +1,4 @@
-# React Bank
+# Danske Bank
 
 A simple internet banking application using React.
 
