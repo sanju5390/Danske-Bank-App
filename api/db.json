@@ -1,0 +1,165 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Current Account",
+      "balance": 5050000
+    },
+    {
+      "id": 2,
+      "name": "Savings",
+      "balance": 4914000
+    },
+    {
+      "name": "Sanjay",
+      "balance": 5036000,
+      "id": 3
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2020-08-30T19:40:00.000Z",
+      "description": "Costa",
+      "debit": 4.59,
+      "credit": null,
+      "accountId": 1
+    },
+    {
+      "id": 2,
+      "date": "2020-08-29T00:00:00.000Z",
+      "description": "Payment Received (Wage)",
+      "debit": null,
+      "credit": 0.01,
+      "accountId": 1
+    },
+    {
+      "date": "2020-08-15T22:22:45.488Z",
+      "description": "Transfer to Savings",
+      "debit": 50,
+      "credit": null,
+      "accountId": 1,
+      "id": 3
+    },
+    {
+      "date": "2020-08-15T22:22:45.500Z",
+      "description": "Transfer from Current Account",
+      "debit": null,
+      "credit": 50,
+      "accountId": 2,
+      "id": 4
+    },
+    {
+      "date": "2020-08-29T14:52:50.512Z",
+      "description": "Transfer to Current Account",
+      "debit": 100,
+      "credit": null,
+      "accountId": 2,
+      "id": 5
+    },
+    {
+      "date": "2020-08-29T14:52:50.514Z",
+      "description": "Transfer from Savings",
+      "debit": null,
+      "credit": 100,
+      "accountId": 1,
+      "id": 6
+    },
+    {
+      "date": "2020-08-29T14:54:50.450Z",
+      "description": "Transfer to Savings",
+      "debit": 300,
+      "credit": null,
+      "accountId": 1,
+      "id": 7
+    },
+    {
+      "date": "2020-08-29T14:54:50.461Z",
+      "description": "Transfer from Current Account",
+      "debit": null,
+      "credit": 300,
+      "accountId": 2,
+      "id": 8
+    },
+    {
+      "date": "2020-08-29T14:55:51.335Z",
+      "description": "Transfer to Sanjay",
+      "debit": 300,
+      "credit": null,
+      "accountId": 2,
+      "id": 9
+    },
+    {
+      "date": "2020-08-29T14:55:51.345Z",
+      "description": "Transfer from Savings",
+      "debit": null,
+      "credit": 300,
+      "accountId": 3,
+      "id": 10
+    },
+    {
+      "date": "2020-08-31T04:38:51.235Z",
+      "description": "Transfer to Sanjay",
+      "debit": 15,
+      "credit": null,
+      "accountId": 2,
+      "id": 11
+    },
+    {
+      "date": "2020-08-31T04:38:51.236Z",
+      "description": "Transfer from Savings",
+      "debit": null,
+      "credit": 15,
+      "accountId": 3,
+      "id": 12
+    },
+    {
+      "date": "2020-08-31T18:23:51.921Z",
+      "description": "Transfer to Savings",
+      "debit": 100,
+      "credit": null,
+      "accountId": 3,
+      "id": 13
+    },
+    {
+      "date": "2020-08-31T18:23:51.923Z",
+      "description": "Transfer from Sanjay",
+      "debit": null,
+      "credit": 100,
+      "accountId": 2,
+      "id": 14
+    },
+    {
+      "date": "2020-08-31T18:26:06.933Z",
+      "description": "Transfer to Sanjay",
+      "debit": 36000,
+      "credit": null,
+      "accountId": 2,
+      "id": 15
+    },
+    {
+      "date": "2020-08-31T18:26:06.935Z",
+      "description": "Transfer from Savings",
+      "debit": null,
+      "credit": 36000,
+      "accountId": 3,
+      "id": 16
+    },
+    {
+      "date": "2020-08-31T18:32:47.257Z",
+      "description": "Transfer to Current Account",
+      "debit": 50000,
+      "credit": null,
+      "accountId": 2,
+      "id": 17
+    },
+    {
+      "date": "2020-08-31T18:32:47.258Z",
+      "description": "Transfer from Savings",
+      "debit": null,
+      "credit": 50000,
+      "accountId": 1,
+      "id": 18
+    }
+  ]
+}
